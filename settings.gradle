@@ -11,6 +11,6 @@ pluginManagement {
 
 include("common")
 include("fabric")
-include("neoforge")
+// include("neoforge")  // Commented out for Fabric-only 1.21.4 port
 
 rootProject.name = "Epic-Knights-Addon-1.21-crossversion"
