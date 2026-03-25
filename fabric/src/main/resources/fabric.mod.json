@@ -18,6 +18,9 @@
   "entrypoints": {
     "main": [
       "com.magistuarmory.addon.fabric.EpicKnightsAddonFabric"
+    ],
+    "client": [
+      "com.magistuarmory.addon.fabric.EpicKnightsAddonFabric$Client"
     ]
   },
   "depends": {
