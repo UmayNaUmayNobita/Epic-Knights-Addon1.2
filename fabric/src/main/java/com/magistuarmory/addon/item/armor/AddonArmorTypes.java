@@ -12,7 +12,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import com.magistuarmory.addon.utils.IdentifierUtil;
 import dev.architectury.registry.registries.DeferredRegister;
-import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.equipment.ArmorMaterial;
 
 public class AddonArmorTypes
 {
