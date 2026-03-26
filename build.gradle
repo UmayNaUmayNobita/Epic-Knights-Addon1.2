@@ -16,10 +16,10 @@ subprojects {
 
     dependencies {
         minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
-        // The following line declares the yarn mappings for Fabric compatibility
-        mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
         // The following line declares the mojmap mappings, you may use other mappings as well
-        // mappings(loom.officialMojangMappings())
+        mappings(loom.officialMojangMappings())
+        // The following line declares the yarn mappings for Fabric compatibility
+        // mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     }
 }
 

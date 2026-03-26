@@ -1,0 +1,20 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'Epic-Knights-Addon-1.21-crossversion'.
+> Could not resolve all artifacts for configuration ':classpath'.
+   > Could not resolve com.mojang:datafixerupper:6.0.8.
+     Required by:
+         project : > dev.architectury.loom:dev.architectury.loom.gradle.plugin:1.7-SNAPSHOT:20250818.175821-1 > dev.architectury:architectury-loom:1.7-SNAPSHOT:20250818.175821-1
+      > Dependency requires at least JVM runtime version 17. This build uses a Java 11 JVM.
+
+* Try:
+> Run this build using a Java 17 or newer JVM.
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 57s
